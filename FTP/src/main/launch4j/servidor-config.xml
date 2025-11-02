@@ -1,0 +1,15 @@
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>C:/Users/Nakan/OneDrive/Documentos/NetBeansProjects/FTP/target/FTP-1.0-SNAPSHOT-jar-with-dependencies.jar</jar>
+    <outfile>C:/Users/Nakan/OneDrive/Documentos/NetBeansProjects/FTP/target/ServerFTP.exe</outfile>
+    <errTitle>ServerFTP Error</errTitle>
+    <icon>C:/Users/Nakan/OneDrive/Documentos/NetBeansProjects/FTP/data/server.ico</icon>
+    <manifest>C:/Users/Nakan/OneDrive/Documentos/NetBeansProjects/FTP/src/main/launch4j/require-admin.manifest.xml</manifest>
+    <classPath>
+        <mainClass>FTP.ServerFTP</mainClass>
+    </classPath>
+    <jre>
+        <minVersion>11</minVersion>
+    </jre>
+</launch4jConfig>
